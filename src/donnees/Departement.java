@@ -22,7 +22,15 @@ public class Departement implements Comparable {
     this(id, "-1", "-1");
     this.id=id;
   } // Constructeur
-  
+
+  public [] getAttribute(){
+     tab [] = new [3];
+     tab[0] = this.id;
+     tab[1] = this.dpt;
+     tab[2] = this.lieu;
+     return tab;
+  }
+ 
   public int getId() {return id;} // getId
   public String getDepartement() {return dpt;} // getDepartement
   public String getLieu() {return lieu;} // getLieu

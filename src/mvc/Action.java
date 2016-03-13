@@ -24,5 +24,7 @@ public class Action {
   public int getAct() {return act;} // getAct
   public int getInd() {return ind;} // getPos
   
+ 
+
 }
 //coucou les copains
