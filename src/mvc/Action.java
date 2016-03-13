@@ -25,3 +25,4 @@ public class Action {
   public int getInd() {return ind;} // getPos
   
 }
+//coucou les copains
